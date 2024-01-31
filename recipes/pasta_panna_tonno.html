@@ -4,51 +4,54 @@
     <head>
         <meta charset="UTF-8">
         <title>Pasta Panna e Tonno</title>
-
+        <link rel="stylesheet" href="../styles/style.css">
 
 
 
     </head>
     <body>
-        <h1>Pasta Panna e Tonno</h1>
-        <img src="../images/Particolare-farfalle-tonno-e-panna.jpg" alt="Un piatto di farfalle panna e tonno">
-        <h3>Descrizione</h3>
-        <p>La pasta panna e tonno con pomodoro è una ricetta semplice e molto saporita… anche per una pasta al volo con degli ospiti… infatti la pasta al tonno con l’aggiunta di panna ha un sapore molto delicato, ricorda un po’ la pasta al salmone… per un successo garantito!!!</p>
-        <h3>Ingredienti</h3>
-        <ul>
-            <li>gr di pasta formato farfalle</li>
-            <li>1 scatoletta piccola (80 gr) di tonno</li>
-            <li>100 ml di passata di pomodoro</li>
-            <li>1/2 confezione di panna da cucina</li>
-            <li>1/2 cipolla</li>
-            <li>1 spicchio d’aglio</li>
-            <li>prezzemolo></li>
-            <li>olio</li>
-            <li>sale</li>
-            <li>peperoncino</li>
-            <li>timo (opzionale)</li>
-        </ul>
-        <h3>Preparazione</h3>
-        <ol>
-            <li>Preparare la cipolla, l’aglio, il prezzemolo ed il peperoncino su un tagliere</li>
-            <li>Preparare un battuto con tali ingredienti</li>
-            <li>Mettere il battuto in padella con l’olio a soffriggere</li>
-            <li>Aggiungere il tonno sgocciolato e sbriciolato</li>
-            <li>Far cuocere il tonno pochi minuti amalgamandolo al soffritto</li>
-            <li>A questo punto aggiungere il pomodoro passato e regolare di sale</li>
-            <li>Far cuocere a fuoco lento fino a che il pomodoro non si è ritirato</li>
-            <li>Preparare un battuto con tali ingredienti</li>
-            <li>Nel frattempo mettere a cuocere la pasta in abbondante acqua salata; a fine cottura pasta aggiungere la panna al sugo di tonno e far amalgamare</li>
-            <li>Scolare la pasta al dente e versarla nella padella con il sugo di tonno e panna</li>
-            <li>Saltare la pasta in modo da farla insaporire…</li>
-            <li>Impiattare e servire cospargendo con prezzemolo tritato… e buon appetito!</li>
-        
-        </ol>
-
+        <h1 class="title">Pasta Panna e Tonno</h1>
+        <img src="../images/Particolare-farfalle-tonno-e-panna.jpg" alt="Un piatto di farfalle panna e tonno" height="auto" width="450">
+        <h3 class="description">Descrizione</h3>
+        <p class="par">La <strong>pasta panna e tonno con pomodoro</strong> è una ricetta semplice e molto saporita, anche per una pasta al volo con degli ospiti… infatti la pasta al tonno con l’aggiunta di panna ha un sapore molto delicato, che ricorda un po’ la pasta al salmone. Per un successo garantito!</p>
+        <h3 class="subtitle">Ingredienti <button class="button" onclick="mostraIngredienti('ingredienti_pasta')">mostra/nascondi ingredienti</button></h3>
+        <div class="list nascondi" id="ingredienti_pasta">
+            <ul>
+                <li>gr di pasta formato farfalle</li>
+                <li>1 scatoletta piccola (80 gr) di tonno</li>
+                <li>100 ml di passata di pomodoro</li>
+                <li>1/2 confezione di panna da cucina</li>
+                <li>1/2 cipolla</li>
+                <li>1 spicchio d’aglio</li>
+                <li>prezzemolo></li>
+                <li>olio</li>
+                <li>sale</li>
+                <li>peperoncino</li>
+                <li>timo (opzionale)</li>
+            </ul>
+        </div>
+        <h3 class="subtitle">Preparazione</h3>
+        <div class="list">
+            <ol>
+                <li>Preparare la cipolla, l’aglio, il prezzemolo ed il peperoncino su un tagliere</li>
+                <li>Preparare un battuto con tali ingredienti</li>
+                <li>Mettere il battuto in padella con l’olio a soffriggere</li>
+                <li>Aggiungere il tonno sgocciolato e sbriciolato</li>
+                <li>Far cuocere il tonno pochi minuti amalgamandolo al soffritto</li>
+                <li>A questo punto aggiungere il pomodoro passato e regolare di sale</li>
+                <li>Far cuocere a fuoco lento fino a che il pomodoro non si è ritirato</li>
+                <li>Preparare un battuto con tali ingredienti</li>
+                <li>Nel frattempo mettere a cuocere la pasta in abbondante acqua salata; a fine cottura pasta aggiungere la panna al sugo di tonno e far amalgamare</li>
+                <li>Scolare la pasta al dente e versarla nella padella con il sugo di tonno e panna</li>
+                <li>Saltare la pasta in modo da farla insaporire…</li>
+                <li>Impiattare e servire cospargendo con prezzemolo tritato… e buon appetito!</li>
+            
+            </ol>
+        </div>
 
 
     </body>
-
+    <script src="../script/script.js"></script>
 
 
 

@@ -1,0 +1,55 @@
+.title{
+    color: crimson;
+    font-family: "fantasy", 'Times New Roman', serif;
+    font-size: 50px;
+    font-style: italic;
+    background-color:antiquewhite;
+
+}
+
+
+
+.list{
+   
+    background-color:rgb(110, 28, 33);
+    color: rgb(255 255 255);
+    font-family: "fantasy", 'Times New Roman', serif;
+    font-size: 22px;
+    font-style: italic;
+}
+
+
+
+
+.subtitle{
+    font-family: "fantasy", 'Times New Roman', serif;
+    color: rgb(109, 4, 4);
+    font-style: italic;
+    font-size: 24px;
+}
+
+.description{
+    font-family: "fantasy", 'Times New Roman', serif;
+    font-size: 35px;
+    font-weight:800;
+    color: brown;
+
+}
+
+.par{
+    font-size: 20px;
+
+}
+
+.nascondi{
+
+    display: none;
+}
+
+
+.button{
+    background-color: beige;
+    color: brown;
+    font-family: "fantasy", 'Times New Roman', serif;
+    font-style: oblique;
+}

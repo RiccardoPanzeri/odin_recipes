@@ -4,50 +4,56 @@
     <head>
         <meta charset="UTF-8">
         <title>Linguine alla Carbonara di Tonno</title>
-
-
+        <link rel="stylesheet" href="../styles/style.css">
+        
     </head>
 
     <body>
-        <h1>Linguine alla Carbonara di Tonno</h1>
-        <img src="../images/Particolare-linguine-alla-carbonara-di-tonno.jpeg" alt="Un piatto di Linguine alla Carbonara di Tonno" height="450" width="450">
-        <h3>Descrizione</h3>
-        <p>La <strong>carbonara di tonno</strong> è una variante gustosa e originale della <em>classica carbonara<em>, a base di pasta, uova, formaggio e guanciale. In questa ricetta, il guanciale viene sostituito dal tonno, un pesce ricco di sapore e nutrienti.</p>
-        <h3>Ingredienti</h3>
-        <ul>
-            <li>100 gr di pasta formato linguine o trenette</li>
-            <li>1 scatoletta di tonno sott’olio</li>
-            <li>1 uovo</li>
-            <li>1 cucchiaio di crema di latte o latte fresco (opzionale)</li>
-            <li>1 cucchiaio di parmigiano grattugiato</li>
-            <li>1 cucchiaio di pecorino grattugiato</li>
-            <li>olio</li>
-            <li>1 spicchio d’aglio</li>
-            <li>sale</li>
-            <li>pepe</li>
-            <li>vino bianco</li>
-            <li>prezzemolo o menta</li>
-            <li>peperoncino</li>
-        </ul>
-        <h3>Preparazione</h3>    
-        <ol>
-            <li><p>In una padella fate soffriggere delicatamente l’aglio tagliato in due pezzi nell’olio</p></li>
-            <li><p>Nel frattempo sgocciolate il tonno, quindi mettetelo a soffriggere delicatamente in padella con l’aglio</p></li>
-            <li><p>A questo punto aggiungete il vino bianco e lasciate evaporare</p></li>
-            <li><p>Infine aggiungete il peperoncino in polvere e la menta (o prezzemolo)</p></li>
-            <li><p>Nel frattempo, mentre cuocete la pasta in abbondante acqua salata, preparate  la crema di uova; mettete l’uovo in una ciotola con il parmigiano, il pecorino, sale e pepe, un altro po’ di menta (o prezzemolo) e, se di gradimento, la crema di latte</p></li>
-            <li><p>Sbattete bene con una forchetta</p></li>
-            <li><p>Quando la pasta è al dente, scolatela e mettetela in padella con il tonno caldo, dopo aver buttato l’aglio, in modo da farla insaporire e amalgamare</p></li>
-            <li><p>Versate quindi le linguine caldissime nella ciotola con la crema di uova e mescolate in modo da far rapprendere l’uovo</p></li>
-            <li><p>Impiattate e servite caldissima guarnendo con menta spezzettata (o prezzemolo) e un rametto di menta!</p></li>
-            <li><p>Buon appetito!! Con questa <strong>carbonara di tonno</strong></p></li>
+        <h1 class="title">Linguine alla Carbonara di Tonno</h1>
+        <img src="../images/Particolare-linguine-alla-carbonara-di-tonno.jpeg" alt="Un piatto di Linguine alla Carbonara di Tonno" height="auto" width="450">
+        <h3 class="description">Descrizione</h3>
+        <p class="par">La <strong>carbonara di tonno</strong> è una variante gustosa e originale della <em>classica carbonara</em>, a base di pasta, uova, formaggio e guanciale. In questa ricetta, il guanciale viene sostituito dal tonno, un pesce ricco di sapore e nutrienti.</p>
+        <h3 class="subtitle">Ingredienti <button class="button" onclick="mostraIngredienti('ingredienti_linguine')">mostra/nascondi ingredienti</button></h3>
+        
+        <div class="list nascondi" id="ingredienti_linguine">
+            <ul>
+                <li>100 gr di pasta formato linguine o trenette</li>
+                <li>1 scatoletta di tonno sott’olio</li>
+                <li>1 uovo</li>
+                <li>1 cucchiaio di crema di latte o latte fresco (opzionale)</li>
+                <li>1 cucchiaio di parmigiano grattugiato</li>
+                <li>1 cucchiaio di pecorino grattugiato</li>
+                <li>olio</li>
+                <li>1 spicchio d’aglio</li>
+                <li>sale</li>
+                <li>pepe</li>
+                <li>vino bianco</li>
+                <li>prezzemolo o menta</li>
+                <li>peperoncino</li>
+            </ul>
+        </div>
+        <h3 class="subtitle">Preparazione</h3>    
+        <div class="list">
+            <ol>
+                <li><p>In una padella fate soffriggere delicatamente l’aglio tagliato in due pezzi nell’olio</p></li>
+                <li><p>Nel frattempo sgocciolate il tonno, quindi mettetelo a soffriggere delicatamente in padella con l’aglio</p></li>
+                <li><p>A questo punto aggiungete il vino bianco e lasciate evaporare</p></li>
+                <li><p>Infine aggiungete il peperoncino in polvere e la menta (o prezzemolo)</p></li>
+                <li><p>Nel frattempo, mentre cuocete la pasta in abbondante acqua salata, preparate  la crema di uova; mettete l’uovo in una ciotola con il parmigiano, il pecorino, sale e pepe, un altro po’ di menta (o prezzemolo) e, se di gradimento, la crema di latte</p></li>
+                <li><p>Sbattete bene con una forchetta</p></li>
+                <li><p>Quando la pasta è al dente, scolatela e mettetela in padella con il tonno caldo, dopo aver buttato l’aglio, in modo da farla insaporire e amalgamare</p></li>
+                <li><p>Versate quindi le linguine caldissime nella ciotola con la crema di uova e mescolate in modo da far rapprendere l’uovo</p></li>
+                <li><p>Impiattate e servite caldissima guarnendo con menta spezzettata (o prezzemolo) e un rametto di menta!</p></li>
+                <li><p>Buon appetito!</p></li>
 
-        </ol>
+            </ol>
+        </div>
 
 
 
     </body>
-
+    <script src="../script/script.js"></script>
+        
 
 
 
