@@ -54,3 +54,15 @@
     font-family: "fantasy", 'Times New Roman', serif;
     font-style: oblique;
 }
+
+#menu{
+    text-align: center;
+    background-color: antiquewhite;
+    border:  4px brown;
+    border-style: dotted;
+    
+    display: inline-block;
+    margin-left: 400px;
+
+}
+
